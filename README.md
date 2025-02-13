@@ -11,3 +11,4 @@ Ongoing. 2025-02-08 to present.
 - Minecraft Forge
 - ParchmentMC
 - This tutorial to help me learn: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK (but I did not just follow 1 to 1).
+- Textures from this amazing repo: https://github.com/malcolmriley/unused-textures/tree/master

@@ -1,7 +1,7 @@
-# TutorialMod
+# Avoidance
 
 ## Description
-TutorialMod is a minecraft mod I made to help me learn minecraft modding!
+Avoidance is a minecraft mod filled with a wide range of new features I made to help me learn minecraft modding!
 
 ## Status
 Ongoing. 2025-02-08 to present.

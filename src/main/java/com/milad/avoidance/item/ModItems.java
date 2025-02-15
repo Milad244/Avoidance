@@ -1,6 +1,6 @@
-package com.milad.tutorialmod.item;
+package com.milad.avoidance.item;
 
-import com.milad.tutorialmod.TutorialMod;
+import com.milad.avoidance.Avoidance;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -8,7 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Avoidance.MOD_ID);
 
     public static final RegistryObject<Item> VOLCANITE = ITEMS.register("volcanite",
             () -> new Item(new Item.Properties()));

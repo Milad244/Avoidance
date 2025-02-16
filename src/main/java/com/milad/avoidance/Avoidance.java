@@ -1,5 +1,6 @@
 package com.milad.avoidance;
 
+import com.milad.avoidance.block.ModBlocks;
 import com.milad.avoidance.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,8 +33,9 @@ public class Avoidance {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
-        // Register the item to a creative tab
+        // Register our item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -51,6 +53,11 @@ public class Avoidance {
             event.accept(ModItems.PYRONITE_NUGGET);
             event.accept(ModItems.PYRONITE);
             event.accept(ModItems.PYRONITE_GEM);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PYRONITE_BLOCK);
+            event.accept(ModBlocks.PYRONITE_ORE);
         }
     }
 

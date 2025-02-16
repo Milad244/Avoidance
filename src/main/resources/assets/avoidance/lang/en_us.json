@@ -3,5 +3,8 @@
   "item.avoidance.raw_pyronite": "Raw Pyronite",
   "item.avoidance.pyronite_nugget": "Pyronite Nugget",
   "item.avoidance.pyronite": "Pyronite",
-  "item.avoidance.pyronite_gem": "Pyronite Gem"
+  "item.avoidance.pyronite_gem": "Pyronite Gem",
+
+  "block.avoidance.pyronite_block": "Block of Pyronite",
+  "block.avoidance.pyronite_ore": "Pyronite Ore"
 }
